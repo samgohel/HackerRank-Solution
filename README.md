@@ -1,2 +1,3 @@
-# JavaScript-Practice
-JS Practice Programs
+# HackerRank Solution
+Hacker rank Problem Solution
+
