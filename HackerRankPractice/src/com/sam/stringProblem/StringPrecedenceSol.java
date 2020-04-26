@@ -2,7 +2,7 @@ package com.sam.stringProblem;
 
 import java.util.Scanner;
 
-public class Solution {
+public class StringPrecedenceSol {
 
 	public static void main(String[] args) {
 
