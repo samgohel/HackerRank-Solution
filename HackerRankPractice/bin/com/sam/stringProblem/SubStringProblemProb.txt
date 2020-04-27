@@ -1,5 +1,5 @@
 #####
-String Precedence Problem Solution
+String Precedence Problem statement
 #####
 
 ->Given a string, S, and an integer, K, complete the function so that it finds the lexicographically smallest and largest substrings of length K.
