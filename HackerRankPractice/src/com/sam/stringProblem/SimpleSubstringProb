@@ -1,0 +1,28 @@
+#####
+Simple SubString Problem statement
+#####
+
+->Given a string, S,and two indices,START  and END, print a substring consisting of all characters in the inclusive range from START to END - 1. You'll find the String class' substring method helpful in completing this challenge.
+
+->Input Format
+  The first line contains a single string denoting S.
+  The second line contains two space-separated integers denoting the respective values of START and END.
+  
+->Constraints
+  1 <= |S| <=100
+  0<= START < END <= N
+  String S consists of English alphabetic letters (i.e.,[a-zA-Z] )only.
+  
+->Output Format
+  Print the substring in the inclusive range from START to END-1.
+  
+->Sample Input
+  Helloworld
+  3 7 
+
+->Sample Output
+  lowo
+  
+->Explanation
+  HELLOWORLD
+  0123456789
