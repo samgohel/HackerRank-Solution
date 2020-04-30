@@ -1,0 +1,13 @@
+#####
+DuplicateCharInString Problem statement
+#####
+
+->Java Program to find Repeated Characters of String
+
+ 
+->Sample Input
+  HelloJava
+  
+->Sample Output
+  a : 2 
+  l : 2 
