@@ -1,0 +1,24 @@
+#####
+CurrencyFormatter Problem statement
+#####
+
+->Input Format
+  A single double-precision number denoting Payment.
+
+->Constraints
+  0 <= payment <=10^9
+  
+->Output Format
+  On the first line, print US: u where U is Payment formatted for US currency.
+  On the second line, print India: i where I is Payment formatted for Indian currency.
+  On the third line, print China: c where C is Payment formatted for Chinese currency.
+  On the fourth line, print France: f, where F is Payment formatted for French currency.  
+
+->Sample Input
+  12324.134
+  
+->Sample Output
+  US: $12,324.13
+  India: Rs.12,324.13
+  China: ￥12,324.13
+  France: 12 324,13 €
