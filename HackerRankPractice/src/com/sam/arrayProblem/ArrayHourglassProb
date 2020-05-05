@@ -1,0 +1,32 @@
+#####
+ArrayHourglass Problem Statement 
+#####
+
+->For example, if we create an hourglass using the number 1 within an array full of zeros, it may look like this:
+  1 1 1 0 0 0
+  0 1 0 0 0 0
+  1 1 1 0 0 0
+  0 0 0 0 0 0
+  0 0 0 0 0 0
+  0 0 0 0 0 0
+  
+->Actually, there are many hourglasses in the array above. The three leftmost hourglasses are the following:
+  1 1 1     1 1 0     1 0 0
+    1         0         0
+  1 1 1     1 1 0     1 0 0
+  
+->Sample Input
+  1 1 1 0 0 0
+  0 1 0 0 0 0
+  1 1 1 0 0 0
+  0 0 2 4 4 0
+  0 0 0 2 0 0
+  0 0 1 2 4 0
+  
+->Sample Output
+  19
+  
+->Explanation
+  2 4 4
+    2
+  1 2 4
