@@ -1,0 +1,41 @@
+#####
+Duplicate Words Problem statement
+#####
+
+->In this challenge, we use regular expressions (RegEx) to remove instances of words that are repeated more than once, but retain the first occurrence of any case-insensitive repeated word. For example, the words love and to are repeated in the sentence I love Love to To tO code. Can you complete the code in the editor so it will turn I love Love to To tO code into I love to code?
+
+->To solve this challenge, complete the following three lines:
+  Write a RegEx that will match any repeated word.
+  Complete the second compile argument so that the compiled RegEx is case-insensitive.
+  Write the two necessary arguments for replaceAll such that each repeated word is replaced with the very first instance the word found in the sentence. It must be the exact first occurrence of the word, as the expected output is case-sensitive.
+  
+->Input Format
+  Each sentence consists of at most 10^4 English alphabetic letters and whitespaces.
+  1<=n<=100
+  
+->Output Format
+  Stub code in the editor prints the sentence modified by the replaceAll line to stdout. The modified string must be a modified version of the initial sentence where all repeat occurrences of each word are removed.
+  
+->Sample Input
+  5
+  Goodbye bye bye world world world
+  Sam went went to to to his business
+  Reya is is the the best player in eye eye game
+  in inthe
+  Hello hello Ab aB
+  
+->Sample Output
+  Goodbye bye world
+  Sam went to his business
+  Reya is the best player in eye game
+  in inthe
+  Hello Ab
+  
+->Solution Explanation 
+  \b: look for word boundary (match only beginning of word instead of somewhere in the middle);
+  (\w+): match one ore more word characters and remember them as a group (the parens) to which later we can refer to using a number; so this matches a complete word and remembers it;
+  \s+: match one or more space characters;
+  \1: match the word remembered in step 2;
+  \b: like in step 1 – make sure it’s not a part of some longer word;
+  (\s+\1\b)+: match one or more occurrences of the word captured in step 2.
+  to match words in case insensitive way then just compile the above Regular Expression with CASE_INSENSITIVE flag:
