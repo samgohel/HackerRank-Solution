@@ -1,4 +1,4 @@
-package com.sam.arrayProblem;
+package com.sam.interviewRelated;
 
 import java.util.Scanner;
 
