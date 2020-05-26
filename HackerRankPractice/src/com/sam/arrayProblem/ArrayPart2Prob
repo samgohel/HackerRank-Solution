@@ -1,0 +1,11 @@
+#####
+ArrayPart2 Problem Statement 
+#####
+
+->Let's play a game on an array! You're standing at index 0 of an N-element array named game From some index I, you can perform one of the following moves:
+  -Move Backward: If cell i-1  exists and contains a 0, you can walk back to cell I -1.
+  -Move Forward:
+   If cell I+1 contains a zero, you can walk to cell I+1 .
+   If cell I + leap contains a zero, you can jump to cell I + leap.
+   f you're standing in cell N-1 or the value of I+leap>=n, you can walk or jump off the end of the array and win the game.
+
